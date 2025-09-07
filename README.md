@@ -9,7 +9,7 @@ Clone the repository:
 
 Bash
 
-git clone https://github.com/YourUsername/your-repository-name.git
+git clone https://github.com/kira-parth/Transfomer_trading
 cd your-repository-name
 Install the dependencies:
 Make sure you have a requirements.txt file with the necessary libraries.
