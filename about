@@ -1,0 +1,31 @@
+Of course. Here is a full, well-structured description for your project, perfect for a GitHub README.md file. You can copy and paste this directly.
+
+📈 Forex Price Prediction using a Transformer Model
+This project is a deep learning implementation for forecasting foreign exchange (Forex) market prices. It utilizes a Transformer-based neural network, a state-of-the-art architecture for sequence-based tasks, to predict future closing prices based on historical data and technical indicators.
+
+## Project Overview
+The primary goal of this repository is to demonstrate how to build, train, and evaluate a sophisticated deep learning model for time-series forecasting. The script is a complete end-to-end pipeline that performs the following steps:
+
+Data Loading: Ingests historical Forex data from a CSV file.
+
+Feature Engineering: Enriches the dataset by calculating several common technical analysis indicators like RSI, Bollinger Bands, and Moving Average Slope.
+
+Data Preprocessing: Scales the features to a uniform range using MinMaxScaler to prepare them for the neural network.
+
+Model Training: Trains a Transformer Encoder model using PyTorch to learn patterns from sequences of historical data.
+
+Evaluation & Visualization: Assesses the model's performance on a test set using Mean Squared Error (MSE) and Mean Absolute Error (MAE) and plots the predicted prices against the actual prices.
+
+## Technology Stack
+PyTorch: The core deep learning framework used to build and train the Transformer model.
+
+Pandas: Used for data manipulation and loading the CSV dataset.
+
+NumPy: For efficient numerical operations.
+
+Scikit-learn: For data preprocessing, specifically feature scaling.
+
+ta: A technical analysis library used for automated feature engineering.
+
+Matplotlib: For plotting the final results and visualizing the model's predictions.
+
